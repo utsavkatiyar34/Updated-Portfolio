@@ -49,7 +49,7 @@
 }
 .home-socialmedia{
         margin-right:2vw;
-        opacity: 80%;
+        cursor: pointer;
 }
 .home-intro-image>div{
         width: 90%;

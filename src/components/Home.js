@@ -1,9 +1,13 @@
 import React from "react";
 import "../styles/home.css";
 import Skills from "./Skills";
-import { Button } from '@mui/material';
+import { Button } from "@mui/material";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import MailIcon from "@mui/icons-material/Mail";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import TwitterIcon from "@mui/icons-material/Twitter";
 import Projects from "./Projects";
-import { SocialMediaIconsReact } from "social-media-icons-react";
 import Education from "./Education";
 import Achivements from "./Achivements";
 import ContactMe from "./ContactMe";
@@ -13,7 +17,10 @@ export default function Home() {
       <div className="home-intro">
         <div className="home-intro-text">
           <h2 className="mainheading">
-            Hi! I'm, Utsav <span class="wave" role="img" aria-label="visible">👋</span>
+            Hi! I'm, Utsav{" "}
+            <span class="wave" role="img" aria-label="visible">
+              👋
+            </span>
           </h2>
           <p>
             A passionate Full Stack Web Developer having an experience of
@@ -22,101 +29,112 @@ export default function Home() {
           </p>
           <div className="home-social">
             <div className="home-socialmedia">
-              <SocialMediaIconsReact
-                borderColor="black"
-                icon="github"
-                iconColor="rgba(255,255,255,1)"
-                backgroundColor="black"
-                url="https://github.com/utsavkatiyar34"
-                target="blank"
-                size="3.25vw"
-                roundness="50%"
-              />
+              <a href="https://github.com/utsavkatiyar34" target="blank">
+                <GitHubIcon
+                  sx={{
+                    color: "black",
+                    fontSize: "3vw",
+                  }}
+                />
+              </a>
             </div>
             <div className="home-socialmedia">
-              <SocialMediaIconsReact
-                borderColor="blue"
-                icon="linkedin"
-                iconColor="rgba(255,255,255,1)"
-                backgroundColor="blue"
-                url="https://www.linkedin.com/in/utsav-katiyar-27635417a/"
+              <a
+                href="https://www.linkedin.com/in/utsav-katiyar-27635417a/"
                 target="blank"
-                size="3.25vw"
-                roundness="50%"
-              />
+              >
+                <LinkedInIcon
+                  sx={{
+                    color: "#0077b5",
+                    fontSize: "3vw",
+                  }}
+                />
+              </a>
             </div>
             <div className="home-socialmedia">
-              <SocialMediaIconsReact
-                borderColor="blue"
-                icon="facebook"
-                iconColor="rgba(255,255,255,1)"
-                backgroundColor="blue"
-                url="https://www.facebook.com/utsav.katiyar.39/"
+              <a
+                href="https://www.facebook.com/utsav.katiyar.39/"
                 target="blank"
-                size="3.25vw"
-                roundness="50%"
-              />
+              >
+                <FacebookIcon
+                  sx={{
+                    color: "#3b5998",
+                    fontSize: "3vw",
+                  }}
+                />
+              </a>
             </div>
             <div className="home-socialmedia">
-              <SocialMediaIconsReact
-                borderColor="red"
-                icon="mail"
-                iconColor="rgba(255,255,255,1)"
-                backgroundColor="red"
-                url="mailto:utsavkatiyar34@gmail.com"
-                size="3.25vw"
-                roundness="50%"
+              <a
+                href="mailto:utsavkatiyar34@gmail.com"
+              >
+              <MailIcon
+                sx={{
+                  color: "#ea4335",
+                  fontSize: "3vw",
+                }}
               />
+              </a>
             </div>
             <div className="home-socialmedia">
-              <SocialMediaIconsReact
-                borderColor="blue"
-                icon="twitter"
-                iconColor="rgba(255,255,255,1)"
-                backgroundColor="blue"
-                url="https://twitter.com/utsav_katiyar"
+              <a
+                href="https://twitter.com/utsav_katiyar"
                 target="blank"
-                size="3.25vw"
-                roundness="50%"
-              />
+              >
+              <TwitterIcon 
+               sx={{
+                color: "#55acee",
+                fontSize: "3vw",
+              }}/>
+              </a>
             </div>
           </div>
           <div className="home-buttons">
-            <a href="https://www.linkedin.com/in/utsav-katiyar-27635417a/" target="blank" style={{textDecoration:"none"}}>
-              <Button  variant="solid"
-            sx={{
-            color: "white",
-            backgroundColor: "purple",
-            borderColor: "purple",
-            marginLeft:'auto',
-            marginRight:'2vw',
-            fontSize:'1.5vw',
-            "&:hover": { backgroundColor: "purple" },
-            }}>CONTACT ME</Button>
+            <a
+              href="https://www.linkedin.com/in/utsav-katiyar-27635417a/"
+              target="blank"
+              style={{ textDecoration: "none" }}
+            >
+              <Button
+                variant="solid"
+                sx={{
+                  color: "white",
+                  backgroundColor: "purple",
+                  borderColor: "purple",
+                  marginLeft: "auto",
+                  marginRight: "2vw",
+                  fontSize: "1.5vw",
+                  "&:hover": { backgroundColor: "purple" },
+                }}
+              >
+                CONTACT ME
+              </Button>
             </a>
             <a
               href="https://drive.google.com/file/d/1vKQS1jeamcg00d9Ha0qX-KQAaL42z788/view?usp=sharing"
               target="blank"
-              style={{textDecoration:"none"}}
+              style={{ textDecoration: "none" }}
             >
-              <Button  variant="solid"
-            sx={{
-              color: "white",
-              backgroundColor: "purple",
-              borderColor: "purple",
-              marginLeft:'auto',
-              marginRight:'2vw',
-              fontSize:'1.5vw',
-              "&:hover": { backgroundColor: "purple" },
-            }}>SEE RESUME</Button>
+              <Button
+                variant="solid"
+                sx={{
+                  color: "white",
+                  backgroundColor: "purple",
+                  borderColor: "purple",
+                  marginLeft: "auto",
+                  marginRight: "2vw",
+                  fontSize: "1.5vw",
+                  "&:hover": { backgroundColor: "purple" },
+                }}
+              >
+                SEE RESUME
+              </Button>
             </a>
           </div>
         </div>
         <div className="home-intro-image">
           <div>
-            <img 
-            alt="myimage"
-            src={require("../images/Myimage.png")} />
+            <img alt="myimage" src={require("../images/Myimage.png")} />
           </div>
         </div>
       </div>
