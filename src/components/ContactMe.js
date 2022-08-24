@@ -8,8 +8,8 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 export default function ContactMe() {
   return (
     <div className="contact-div">
-      <h2 className="contact-divh2">
-        Contact Me{" "}
+      <h2 style={{color:'#55198b',fontSize:'3.25vw',fontFamily:'font-family: Arial, sans-serif',textAlign:'center'}}>
+        Contact Me
         <span role="img" aria-label="visible">
           ☎️
         </span>

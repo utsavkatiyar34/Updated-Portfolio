@@ -4,22 +4,22 @@ import "../styles/Projects.css";
 export default function Projects() {
   return (
     <div className="projects-maindiv">
-      <h2 className="projects-maindivh2">My Project Works</h2>
+      <h2 style={{color:'#55198b',fontSize:'3.25vw',fontFamily:'font-family: Arial, sans-serif',textAlign:'center'}}>My Project Works</h2>
       <div className="projects-maindiv-mainsection">
         <div className="projects-information">
-          <h2 className="projects-informationh2">Nykaa Website Clone</h2>
+          <h2 style={{color:'#55198b',fontSize:'2.5vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Nykaa Website Clone</h2>
           <p>
             Nykaa is India's biggest e-commerce cosmetics website. We cloned the
             Nykaa website and it was a collaborative project with a team of
             three members was completed in five days.
           </p>
-          <h3 className="projects-informationh3">Tech-stack</h3>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Tech-stack</h3>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
           </ul>
-          <h3 className="projects-informationh3">Area of responsibilities</h3>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Area of responsibilities</h3>
           <ul>
             <li>I created the homepage.</li>
             <li>I created the skin page.</li>
@@ -36,12 +36,12 @@ export default function Projects() {
            <Button  variant="solid"
             sx={{
             color: "white",
-            backgroundColor: "purple",
-            borderColor: "purple",
+            backgroundColor: "#55198b",
+            borderColor: "#55198b",
             marginLeft:'auto',
             marginRight:'0',
             fontSize:'1.5vw',
-            "&:hover": { backgroundColor: "purple" },
+            "&:hover": { backgroundColor: "#55198b" },
             }}>VIEW PROJECT</Button>
           </a>
           <img 
@@ -51,20 +51,20 @@ export default function Projects() {
       </div>
       <div className="projects-maindiv-mainsection">
         <div className="projects-information">
-          <h2 className="projects-informationh2">Practo Clone</h2>
+          <h2 style={{color:'#55198b',fontSize:'2.5vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Practo Clone</h2>
           <p>
             Practo is one of India's leading healthcare consultation website. We
             cloned the Practo website and it was a collaborative project with a
             team of five members was completed in five days.{" "}
           </p>
-          <h3 className="projects-informationh3">Tech-stack</h3>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Tech-stack</h3>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>JSON-server</li>
           </ul>
-          <h3 className="projects-informationh3">Area of responsibilities</h3>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Area of responsibilities</h3>
           <ul>
             <li>I created the homepage.</li>
             <li>I created the login page.</li>
@@ -82,12 +82,12 @@ export default function Projects() {
             <Button  variant="solid"
             sx={{
             color: "white",
-            backgroundColor: "purple",
-            borderColor: "purple",
+            backgroundColor: "#55198b",
+            borderColor: "#55198b",
             marginLeft:'auto',
             marginRight:'0',
             fontSize:'1.5vw',
-            "&:hover": { backgroundColor: "purple" },
+            "&:hover": { backgroundColor: "#55198b" },
             }}>VIEW PROJECT</Button>
           </a>
           <img
@@ -97,11 +97,11 @@ export default function Projects() {
       </div>
       <div className="projects-maindiv-mainsection">
         <div className="projects-information">
-          <h2 className="projects-informationh2">Banggood Clone</h2>
+          <h2 style={{color:'#55198b',fontSize:'2.5vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Banggood Clone</h2>
           <p>
           Clone of banggood.com which is an international online selling platform from China.{" "}
           </p>
-          <h3 className="projects-informationh3">Tech-stack</h3>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Tech-stack</h3>
           <ul>
             <li>ReactJs</li>
             <li>HTML</li>
@@ -109,7 +109,7 @@ export default function Projects() {
             <li>JavaScript</li>
             <li>JSON-server</li>
           </ul>
-          <h3 className="projects-informationh3">Area of responsibilities</h3>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Area of responsibilities</h3>
           <ul>
             <li>I had created the navbar.</li>
             <li>I had done the Routing.</li>
@@ -126,12 +126,12 @@ export default function Projects() {
             <Button  variant="solid"
             sx={{
             color: "white",
-            backgroundColor: "purple",
-            borderColor: "purple",
+            backgroundColor: "#55198b",
+            borderColor: "#55198b",
             marginLeft:'auto',
             marginRight:'0',
             fontSize:'1.5vw',
-            "&:hover": { backgroundColor: "purple" },
+            "&:hover": { backgroundColor: "#55198b" },
             }}>VIEW PROJECT</Button>
           </a>
           <img
@@ -141,11 +141,11 @@ export default function Projects() {
       </div>
       <div className="projects-maindiv-mainsection">
         <div className="projects-information">
-          <h2 className="projects-informationh2">Amazon Prime Clone</h2>
+          <h2 style={{color:'#55198b',fontSize:'2.5vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Amazon Prime Clone</h2>
           <p>
             Amazon Prime is one of the best OTT platform. With a wide range of content.
           </p>
-          <h3 className="projects-informationh3">Tech-stack</h3>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Tech-stack</h3>
           <ul>
             <li>ReactJs</li>
             <li>Redux</li>
@@ -155,7 +155,7 @@ export default function Projects() {
             <li>JavaScript</li>
             <li>JSON-server</li>
           </ul>
-          <h3 className="projects-informationh3">Area of responsibilities</h3>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Area of responsibilities</h3>
           <ul>
             <li>I created the store page with JSON-server data.</li>
             <li>I created the login and signup page functionality (Authentication).</li>
@@ -172,12 +172,12 @@ export default function Projects() {
             <Button  variant="solid"
             sx={{
             color: "white",
-            backgroundColor: "purple",
-            borderColor: "purple",
+            backgroundColor: "#55198b",
+            borderColor: "#55198b",
             marginLeft:'auto',
             marginRight:'0',
             fontSize:'1.5vw',
-            "&:hover": { backgroundColor: "purple" },
+            "&:hover": { backgroundColor: "#55198b" },
             }}>VIEW PROJECT</Button>
           </a>
           <img

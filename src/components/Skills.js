@@ -4,7 +4,7 @@ import "../styles/Skills.css";
 export default function Skills() {
   return (
     <div className="skills-main">
-      <h2 className="skills-mainh2">What I Do</h2>
+      <h2 style={{color:'#55198b',fontSize:'3.25vw',fontFamily:'font-family: Arial, sans-serif',textAlign:'center'}}>What I Do</h2>
       <p>
         Passionate Full Stack Web Developer who want to explore and learn every
         tech stack. I'm currently working on HTML, CSS, JavaScript, ReactJs and

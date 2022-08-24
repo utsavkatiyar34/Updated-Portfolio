@@ -16,7 +16,7 @@ export default function Home() {
     <div className="home-body">
       <div className="home-intro">
         <div className="home-intro-text">
-          <h2 className="mainheading">
+          <h2 style={{color:'#55198b',fontSize:'3.5vw',fontFamily:'font-family: Arial, sans-serif'}}>
             Hi! I'm, Utsav{" "}
             <span class="wave" role="img" aria-label="visible">
               👋
@@ -99,12 +99,12 @@ export default function Home() {
                 variant="solid"
                 sx={{
                   color: "white",
-                  backgroundColor: "purple",
-                  borderColor: "purple",
+                  backgroundColor: "#55198b",
+                  borderColor: "#55198b",
                   marginLeft: "auto",
                   marginRight: "2vw",
                   fontSize: "1.5vw",
-                  "&:hover": { backgroundColor: "purple" },
+                  "&:hover": { backgroundColor: "#55198b" },
                 }}
               >
                 CONTACT ME
@@ -119,12 +119,12 @@ export default function Home() {
                 variant="solid"
                 sx={{
                   color: "white",
-                  backgroundColor: "purple",
-                  borderColor: "purple",
+                  backgroundColor: "#55198b",
+                  borderColor: "#55198b",
                   marginLeft: "auto",
                   marginRight: "2vw",
                   fontSize: "1.5vw",
-                  "&:hover": { backgroundColor: "purple" },
+                  "&:hover": { backgroundColor: "#55198b" },
                 }}
               >
                 SEE RESUME
@@ -132,9 +132,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="home-intro-image">
-          <div>
-            <img alt="myimage" src={require("../images/Myimage.png")} />
+        <div style={{width:'100%',height:'100%'}}>
+          <div style={{width:'100%',height:'100%'}}>
+            <img style={{width:'100%',height:'100%'}} alt="myimage" src={require("../images/Myimage.png")} />
           </div>
         </div>
       </div>
