@@ -1,0 +1,106 @@
+.skills-main{
+        width: 90%;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+.skills-mainh2{
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: #55198b;
+        opacity: 90%;
+        font-size: 3.5vw;
+        font-weight: 700;
+}
+.skills-gif{
+        width:40vw;
+        margin-top: auto;
+        margin-bottom: auto;
+}
+.skills-gif:hover{
+        box-shadow: 0 5px 6px 0 rgb(0 0 0 / 20%), 0 .5em 2em 0 rgb(0 0 0 / 19%) !important;
+}
+.skills-divs{
+        display: flex;
+        overflow: auto;
+        flex-direction: row;
+        
+}
+.skills-main>p{
+        font-family: Arial, sans-serif;
+        font-size: 2vw;
+        color:gray;
+        text-align: center;
+}
+
+.skillsDiv-parent{
+        width:47vw;
+        display: grid;
+        overflow: auto;
+        grid-template-columns: repeat(4, 1fr);
+        margin-right: 0px;
+        margin-left: auto;
+        
+}
+.skills-pic{
+        width:8vw;
+        height: 8vw;
+        margin-left: auto;
+        margin-right: auto;
+}
+.skills-pic:hover{
+        box-shadow: 0 5px 6px 0 rgb(0 0 0 / 20%), 0 .5em 2em 0 rgb(0 0 0 / 19%) !important;
+}
+.skillsDiv-parent>div{
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+        cursor: pointer;
+        height: 12vw;
+        width:10vw;
+
+}
+.skillsDiv-parent>div>p{
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 1.2vw;
+        color:gray;
+}
+.padder{
+        height: 2px;
+        width:70%;
+        background-color: #55198b;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vw;
+      }
+
+      @media only screen and (max-width: 768px) {
+        .skills-main>p{
+                font-family: Arial, sans-serif;
+                font-size: 2.5vw;
+                color:gray;
+                text-align: center;
+        }
+        .skills-pic{
+                width:8vw;
+                height: 8vw;
+                margin-left: auto;
+                margin-right: auto;
+        }
+        .skillsDiv-parent>div{
+                display: flex;
+                overflow: auto;
+                flex-direction: column;
+                cursor: pointer;
+                height: 14vw;
+                width:10vw;
+        
+        }
+        .skillsDiv-parent>div>p{
+                text-align: center;
+                font-family: Arial, sans-serif;
+                font-size: 1.8vw;
+                color:gray;
+        }
+}

@@ -1,0 +1,109 @@
+.achive-maindiv{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
+.achive-maindivh2{
+        text-align: center;
+        color: #55198b;
+        font-family:Arial, sans-serif ;
+        font-size: 3.5vw;
+        margin-bottom: 0px;
+}
+.achivements-wrapper{
+        display: flex;
+        overflow: auto;
+        width:100%;
+        flex-direction: row;
+        margin-top: .5vw;
+        padding:0,1.5vw,0,1.5vw;
+}
+.achivement-div{
+        display: flex;
+        overflow: auto;
+        flex-direction: column;
+        padding: 1vw;
+        margin:.5vw;
+        text-align: center;
+        font-family:Arial, sans-serif ;
+        border: .001px solid gainsboro;
+        width: 45vw;
+}
+.achivement-div:hover{
+        cursor: pointer;
+        box-shadow: 0 10px 12px 0 rgb(0 0 0 / 20%), 0 .5em 2em 0 rgb(0 0 0 / 19%) !important;
+}
+.achivement-div>img{
+        width:40vw;
+        height: 26vw;
+        margin-left: auto;
+        margin-right: auto;
+}
+.achivement-divh3{
+        font-family:Arial, sans-serif ;
+        margin-top:.5vw;
+        color: #55198b;
+        font-size: 2vw;
+        opacity: 90%;
+        margin-bottom: .2vw;  
+}
+.achivement-div>p{
+        font-family:Arial, sans-serif ;
+        font-size: 1.5vw;
+        color: #868e96;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: 0px;
+}
+@media only screen and (max-width: 768px) {
+        .achivements-wrapper{
+                display: flex;
+                overflow: auto;
+                width:100%;
+                flex-direction:column;
+                margin-top: .5vw;
+                padding:1.5vw;
+        }
+        .achivement-div{
+                display: flex;
+                overflow: auto;
+                flex-direction: column;
+                padding: 1vw;
+                margin:auto;
+                text-align: center;
+                font-family:Arial, sans-serif ;
+                border: .001px solid gainsboro;
+                width: 70vw;
+        }
+        .achivement-div:hover{
+                cursor: pointer;
+                box-shadow: 0 10px 12px 0 rgb(0 0 0 / 20%), 0 .5em 2em 0 rgb(0 0 0 / 19%) !important;
+        }
+        .achivement-div>img{
+                width:60vw;
+                height: 40vw;
+                margin-left: auto;
+                margin-right: auto;
+        }
+        .achivement-div>h3{
+                font-family:Arial, sans-serif ;
+                margin-top:1vw;
+                color: #55198b;
+                font-size: 3vw;
+                opacity: 90%;
+                margin-bottom: 1vw;  
+        }
+        .achivement-div>p{
+                font-family:Arial, sans-serif ;
+                font-size: 2vw;
+                color: #868e96;
+                padding-left: 0px;
+                padding-right: 0px;
+                margin-top: 0px;
+                margin-left: auto;
+                margin-right: 0px;
+        }  
+}

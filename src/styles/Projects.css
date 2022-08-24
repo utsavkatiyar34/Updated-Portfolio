@@ -1,0 +1,202 @@
+.projects-maindiv{
+        width: 90%;
+        padding-top: 0;
+        margin-left: auto;
+        margin-right: auto;
+}
+.projects-maindivh2{
+        font-family: Arial, sans-serif;
+        text-align: center;
+        color: #55198b;
+        opacity: 90%;
+        font-size:3.5vw;
+        font-weight: 700;
+}
+.projects-maindiv-mainsection{
+        display: flex;
+        overflow: auto;
+        width:100%;
+        margin-bottom: 3vw;
+        border: .01px solid gainsboro;
+        padding:1.5vw;
+}
+.projects-maindiv-mainsection:hover{
+        cursor: pointer;
+        box-shadow: 0 10px 12px 0 rgb(0 0 0 / 20%), 0 .5em 2em 0 rgb(0 0 0 / 19%) !important;
+}
+.projects-image-wrapper{
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        width:33vw;
+        z-index: 2;
+        margin-right: 0;
+        margin-left: auto;
+}
+.project-btn12{
+        height: 4vw;
+        width:15vw;
+        font-size: 1.4vw;
+        color: white;
+        font-weight: 500;
+        font-family: Arial,sans-serif;
+        background-color: #55198b;
+        border-radius: .8vw;
+        border: none;
+        cursor: pointer;
+        opacity: 90%;
+}
+.probtn-link{
+        text-decoration: none;
+        width:min-content;
+        margin-right: 0px;
+        margin-left: auto;
+        margin-top: 0px;
+}
+.project-btn12:hover{
+        color: #55198b;
+       background-color: white;
+       border:1.5px solid #55198b;
+       transition: all .3s ease-in-out 0s;
+}
+.projects-image-wrapper>img{
+        width:32vw;
+        height: 18vw;
+        margin-bottom: 0vw;
+        margin-top: auto;
+        margin-right: 0vw;
+        margin-left: auto;
+}
+.projects-information{
+        font-family: Arial,sans-serif;
+        width: 60vw;
+        z-index: -1;
+}
+.projects-informationh2{
+        font-size:2.5vw;
+        color: #55198b;
+       margin-top: 0px;
+        margin-bottom: 1vw;
+        opacity: 90%;
+}
+.projects-informationh3{
+        font-size:1.6vw;
+        color: #55198b;
+       margin-top: 2px;
+        margin-bottom: 2px;
+        opacity: 90%;
+}
+.projects-information>p{
+        font-size:1.5vw;
+        color: #868e96;
+       margin-top: 2px;
+        margin-bottom: 2px;
+}
+.projects-information>ul{
+        margin-top: 2px;
+        margin-bottom:2px;
+        margin-left: 1vw;
+        padding-left: 1vw;
+}
+.projects-information>ul>li{
+        font-size:1.5vw;
+        color: #868e96;
+        margin-left: 1vw;
+        padding-left: 0;
+}
+@media only screen and (max-width: 425px) {
+        .projects-information>h3{
+                font-size:2vw;
+                color: #55198b;
+               margin-top: 2px;
+                margin-bottom: 2px;
+                opacity: 90%;
+        }
+        .projects-information>p{
+                font-size:2vw;
+                color: #868e96;
+               margin-top: 2px;
+                margin-bottom: 2px;
+        }
+        .projects-information>ul{
+                margin-top: 2px;
+                margin-bottom:2px;
+                margin-left: 1vw;
+                padding-left: 1vw;
+        }
+        .projects-information>ul>li{
+                font-size:2vw;
+                color: #868e96;
+                margin-left: 1vw;
+                padding-left: 0;
+        }
+}
+@media only screen and (max-width: 768px) {
+        .projects-information>h3{
+                font-size:2vw;
+                color: #55198b;
+               margin-top: 2px;
+                margin-bottom: 2px;
+                opacity: 90%;
+        }
+        .projects-information>p{
+                font-size:2vw;
+                color: #868e96;
+               margin-top: 2px;
+                margin-bottom: 2px;
+        }
+        .projects-information>ul{
+                margin-top: 2px;
+                margin-bottom:2px;
+                margin-left: 1vw;
+                padding-left: 1vw;
+        }
+        .projects-information>ul>li{
+                font-size:2vw;
+                color: #868e96;
+                margin-left: 1vw;
+                padding-left: 0;
+        }
+        .project-btn12{
+                height: 6vw;
+                width:20vw;
+                font-size: 1.8vw;
+                color: white;
+                font-weight: 500;
+                font-family: Arial,sans-serif;
+                background-color: #55198b;
+                border-radius: .8vw;
+                border: none;
+                cursor: pointer;
+                opacity: 90%;
+        }
+        .probtn-link{
+                text-decoration: none;
+                width:min-content;
+                margin-right: 0px;
+                margin-left: auto;
+                margin-top: 0px;
+        }
+        .project-btn12:hover{
+                color: #55198b;
+               background-color: white;
+               border:1.5px solid #55198b;
+               transition: all .3s ease-in-out 0s;
+        }
+        .projects-image-wrapper>img{
+                width:20vw;
+                height: 12vw;
+                margin-bottom: 0vw;
+                margin-top: auto;
+                margin-right: 0vw;
+                margin-left: auto;
+        }
+}
+.padder{
+        height: 2px;
+        width:70%;
+        background-color: #55198b;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2vw;
+      }

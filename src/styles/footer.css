@@ -1,0 +1,20 @@
+.footerdiv{
+        max-height: 200px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+        font-size: 1.4vw;
+        color:#868e96;
+        border-top:.01px solid gainsboro;;
+        margin-top: 2vw;
+}
+@media only screen and (max-width: 768px) {
+        .footerdiv{
+                max-height: 200px;
+                text-align: center;
+                font-family: Arial, sans-serif;
+                font-size: 2.2vw;
+                color:#868e96;
+                border-top:.01px solid gainsboro;;
+                margin-top: 2vw;
+        }        
+}
