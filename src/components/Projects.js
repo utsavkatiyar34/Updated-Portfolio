@@ -31,7 +31,7 @@ export default function Projects() {
             // className="probtn-link"
             href="https://6226334f60db02083f69e8c9--practical-jepsen-45a6ea.netlify.app/"
             target="blank"
-            style={{textDecoration:"none",width:'14vw',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
+            style={{textDecoration:"none",width:'minContent',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
           >
            <Button  variant="solid"
             sx={{
@@ -40,7 +40,7 @@ export default function Projects() {
             borderColor: "#55198b",
             marginLeft:'auto',
             marginRight:'0',
-            fontSize:'1.5vw',
+            fontSize:'1vw',
             "&:hover": { backgroundColor: "#55198b" },
             }}>VIEW PROJECT</Button>
           </a>
@@ -77,7 +77,7 @@ export default function Projects() {
             // className="probtn-link"
             href="https://papaya-salamander-3f0af6.netlify.app/practo-clone/html/home.html"
             target="blank"
-            style={{textDecoration:"none",width:'14vw',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
+            style={{textDecoration:"none",width:'minContent',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
           >
             <Button  variant="solid"
             sx={{
@@ -86,7 +86,7 @@ export default function Projects() {
             borderColor: "#55198b",
             marginLeft:'auto',
             marginRight:'0',
-            fontSize:'1.5vw',
+            fontSize:'1vw',
             "&:hover": { backgroundColor: "#55198b" },
             }}>VIEW PROJECT</Button>
           </a>
@@ -121,7 +121,7 @@ export default function Projects() {
             // className="probtn-link"
             href="https://banggood-site-clone.netlify.app/"
             target="blank"
-            style={{textDecoration:"none",width:'16vw',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
+            style={{textDecoration:"none",width:'minContent',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
           >
             <Button  variant="solid"
             sx={{
@@ -130,7 +130,7 @@ export default function Projects() {
             borderColor: "#55198b",
             marginLeft:'auto',
             marginRight:'0',
-            fontSize:'1.5vw',
+            fontSize:'1vw',
             "&:hover": { backgroundColor: "#55198b" },
             }}>VIEW PROJECT</Button>
           </a>
@@ -167,7 +167,7 @@ export default function Projects() {
             // className="probtn-link"
             href="https://github.com/Pritesh0-0/Amazon-Prime-Video-Clone"
             target="blank"
-            style={{textDecoration:"none",width:'16vw',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
+            style={{textDecoration:"none",width:'minContent',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
           >
             <Button  variant="solid"
             sx={{
@@ -176,7 +176,7 @@ export default function Projects() {
             borderColor: "#55198b",
             marginLeft:'auto',
             marginRight:'0',
-            fontSize:'1.5vw',
+            fontSize:'1vw',
             "&:hover": { backgroundColor: "#55198b" },
             }}>VIEW PROJECT</Button>
           </a>

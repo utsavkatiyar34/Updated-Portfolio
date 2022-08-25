@@ -2,7 +2,6 @@
         width:90%;
         margin-left: auto;
         margin-right: auto;
-        
 }
 .achive-maindivh2{
         text-align: center;
@@ -88,14 +87,7 @@
                 margin-left: auto;
                 margin-right: auto;
         }
-        .achivement-div>h3{
-                font-family:Arial, sans-serif ;
-                margin-top:1vw;
-                color: #55198b;
-                font-size: 3vw;
-                opacity: 90%;
-                margin-bottom: 1vw;  
-        }
+        
         .achivement-div>p{
                 font-family:Arial, sans-serif ;
                 font-size: 2vw;
