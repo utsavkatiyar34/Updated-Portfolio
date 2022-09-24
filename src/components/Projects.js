@@ -185,6 +185,52 @@ export default function Projects() {
           src={require("../images/Amazonprime.png")} />
         </div>
       </div>
+      <div className="projects-maindiv-mainsection">
+        <div className="projects-information">
+          <h2 style={{color:'#55198b',fontSize:'2.5vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Cult.fit clone</h2>
+          <p>
+            Amazon Prime is one of the best OTT platform. With a wide range of content.
+          </p>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Tech-stack</h3>
+          <ul>
+            <li>ReactJs</li>
+            <li>Redux</li>
+            <li>Material-UI</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>JSON-server</li>
+          </ul>
+          <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Area of responsibilities</h3>
+          <ul>
+            <li>I created the store page with JSON-server data.</li>
+            <li>I created the login and signup page functionality (Authentication).</li>
+            <li>Gave the final touches to the project with team.</li>
+          </ul>
+        </div>
+        <div className="projects-image-wrapper">
+          <a
+            // className="probtn-link"
+            href="https://github.com/Pritesh0-0/Amazon-Prime-Video-Clone"
+            target="blank"
+            style={{textDecoration:"none",width:'minContent',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
+          >
+            <Button  variant="solid"
+            sx={{
+            color: "white",
+            backgroundColor: "#55198b",
+            borderColor: "#55198b",
+            marginLeft:'auto',
+            marginRight:'0',
+            fontSize:'1vw',
+            "&:hover": { backgroundColor: "#55198b" },
+            }}>VIEW PROJECT</Button>
+          </a>
+          <img
+          alt=""
+          src={require("../images/Amazonprime.png")} />
+        </div>
+      </div>
     </div>
   );
 }
