@@ -189,7 +189,7 @@ export default function Projects() {
         <div className="projects-information">
           <h2 style={{color:'#55198b',fontSize:'2.5vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Cult.fit clone</h2>
           <p>
-            Amazon Prime is one of the best OTT platform. With a wide range of content.
+           Cult.fit is an online fitness center where one can buy different subscription plans of body fitness and also can book a slot for body checkup. 
           </p>
           <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Tech-stack</h3>
           <ul>
@@ -199,19 +199,22 @@ export default function Projects() {
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
-            <li>JSON-server</li>
+            <li>Express</li>
+            <li>Mongoose</li>
+            <li>MongoDB</li>
           </ul>
           <h3 style={{color:'#55198b',fontSize:'2vw',fontFamily:'font-family: Arial, sans-serif',margin:'0px'}}>Area of responsibilities</h3>
           <ul>
-            <li>I created the store page with JSON-server data.</li>
             <li>I created the login and signup page functionality (Authentication).</li>
+            <li>I created the profile page.</li>
+            <li>Created all backend reuired for the project like authentication, cart, profile, etc.</li>
             <li>Gave the final touches to the project with team.</li>
           </ul>
         </div>
         <div className="projects-image-wrapper">
           <a
             // className="probtn-link"
-            href="https://github.com/Pritesh0-0/Amazon-Prime-Video-Clone"
+            href="https://cultfit--clone.herokuapp.com/"
             target="blank"
             style={{textDecoration:"none",width:'minContent',marginRight:'0px',marginLeft:'auto',padding:'0px'}}
           >
@@ -228,7 +231,7 @@ export default function Projects() {
           </a>
           <img
           alt=""
-          src={require("../images/Amazonprime.png")} />
+          src={require("../images/Cultfit.png")} />
         </div>
       </div>
     </div>
