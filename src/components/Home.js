@@ -16,12 +16,12 @@ export default function Home() {
     <div className="home-body">
       <div className="home-intro">
         <div className="home-intro-text">
-          <h2 style={{color:'#55198b',fontSize:'3.5vw',fontFamily:'font-family: Arial, sans-serif'}}>
+          <h1 style={{color:'#55198b',fontSize:'3.5vw',fontFamily:'font-family: Arial, sans-serif'}}>
             Hi! I'm, Utsav{" "}
             <span class="wave" role="img" aria-label="visible">
               👋
             </span>
-          </h2>
+          </h1>
           <p>
             A passionate Full Stack Web Developer having an experience of
             building Web applications with JavaScript, React.Js, Node.Js and
