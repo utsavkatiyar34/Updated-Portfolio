@@ -8,7 +8,7 @@ export default function Skills() {
       <p>
         Passionate Full Stack Web Developer who want to explore and learn every
         tech stack. I'm currently working on HTML, CSS, JavaScript, ReactJs and
-        Redux for fron-tend development and NodeJs, ExpressJs for back-end
+        Redux for front-end development and NodeJs, ExpressJs for back-end
         development and MongoDb as Database Management System.
       </p>
       <div className="skills-divs">
