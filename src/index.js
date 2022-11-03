@@ -13,6 +13,7 @@ import Home from "./components/Home";
 import ContactMe from "./components/ContactMe";
 import Achivements from "./components/Achivements";
 import Footer from "./components/Footer";
+import { Form } from "./components/Form";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -26,6 +27,7 @@ root.render(
         <Route exact path="/education" element={<Education />}></Route>
         <Route exact path="/contact" element={<ContactMe />}></Route>
         <Route exact path="/achivements" element={<Achivements />}></Route>
+        <Route exact path="/form" element={<Form/>}></Route>
       </Routes>
       <Footer/>
     </React.StrictMode>

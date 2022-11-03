@@ -21,9 +21,12 @@ const Navbar= () =>{
         <ul>
                 <NavLink to="/education" className='menulinks'>Education</NavLink>
         </ul>
-        <ul>
+        {/* <ul>
                 <NavLink to="/contact" className='menulinks'>Contact Me</NavLink>
-        </ul>      
+        </ul>  */}
+        <ul>
+                <NavLink to="/form" className='menulinks'>Contact</NavLink>
+        </ul>          
         </div>
       </nav>
  

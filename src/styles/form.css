@@ -1,0 +1,27 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+.form-wrapper{
+    display:flex;
+    overflow: hidden;
+    flex-direction: column;
+    width:45%;
+    border:2px solid purple;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom:100px;
+    padding:15px;
+}
+.form-input-field{
+    width:98%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    /* border:1px solid blue; */
+}
